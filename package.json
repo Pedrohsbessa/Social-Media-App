@@ -1,5 +1,6 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.9",
@@ -12,5 +13,8 @@
     "react-router-dom": "^6.16.0",
     "redux-persist": "^6.0.0",
     "yup": "^1.2.0"
+=======
+    "dotenv": "^16.3.1"
+>>>>>>> 9bc71b87da27eea45609d9f0061f803ef5b899ac
   }
 }
