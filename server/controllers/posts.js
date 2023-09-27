@@ -31,8 +31,8 @@ export const createPost = async (req, res)=>{
 /* Read */ 
 
 export const getFeedPosts = async(req, res) =>{
+    console.log('entrei getfeedpost')
     try{
-
         const post = await Post.find()
         res.status(200).json(post)
 

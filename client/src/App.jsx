@@ -1,8 +1,19 @@
+import { BrowserRouter,Navigate, Routes, Route } from 'react-router-dom'
+import HomePage from 'pages/homePage';
+import LoginPage from 'pages/loginPage';
+import ProfilePage from 'pages/profilePage';
+
 function App() {
+
   return (
     <div className="App">
-      <h1>olá react</h1>
-      <h2>Social Media App</h2>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<LoginPage/>} />
+        <Route path='/home' element={<HomePage/>} />
+        <Route path='/profile/:userId' element={<ProfilePage/>} />
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }
