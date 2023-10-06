@@ -1,31 +1,34 @@
 // color design tokens export
 export const colorTokens = {
     grey: {
-      0: "#FFFFFF",
-      10: "#F6F6F6",
-      50: "#F0F0F0",
-      100: "#E0E0E0",
-      200: "#C2C2C2",
-      300: "#A3A3A3",
-      400: "#858585",
-      500: "#666666",
-      600: "#4D4D4D",
-      700: "#333333",
-      800: "#1A1A1A",
-      900: "#0A0A0A",
-      1000: "#000000",
+      0: "#FFFFFF",    // Branco Puro
+10: "#F9FAFB",   // Cinza Muito Claro
+50: "#F1F4F8",   // Cinza Claro
+100: "#DDE4EB",  // Cinza Claro
+200: "#B6C9D5",  // Azul Cinza Claro
+300: "#8FAFBF",  // Azul Cinza Médio
+400: "#6887A8",  // Azul Médio
+500: "#4A638E",  // Azul Médio
+600: "#354C72",  // Azul Escuro Médio
+700: "#23344F",  // Azul Escuro
+800: "#162237",  // Azul Marinho Claro
+900: "#0B131D",  // Azul Marinho Escuro
+1000: "#020709", // Preto Puro
+
+      
+
     },
     primary: {
-      50: "#E6FBFF",
-      100: "#CCF7FE",
-      200: "#99EEFD",
-      300: "#66E6FC",
-      400: "#33DDFB",
-      500: "#00D5FA",
-      600: "#00A0BC",
-      700: "#006B7D",
-      800: "#00353F",
-      900: "#001519",
+      50: "#F5E1F7",   // Pastel Purple Claro
+100: "#E0B0F0",  // Pastel Purple Médio-Claro
+200: "#CB7FE8",  // Pastel Purple Médio
+300: "#B54DE1",  // Pastel Purple Médio-Escuro
+400: "#9F1CD9",  // Pastel Purple Escuro
+500: "#870CC2",  // Pastel Purple Muito Escuro
+600: "#6E0A9E",  // Pastel Purple Muito Escuro
+700: "#55087A",  // Pastel Purple Muito Escuro
+800: "#3C0656",  // Pastel Purple Muito Escuro
+900: "#240432",  // Pastel Purple Muito Escuro
     },
   };
   
