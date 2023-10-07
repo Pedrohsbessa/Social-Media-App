@@ -1,5 +1,6 @@
 import {
   ChatBubbleOutlineOutlined,
+  DeleteOutlined,
   FavoriteBorderOutlined,
   FavoriteOutlined,
   ShareOutlined,
@@ -47,14 +48,37 @@ const PostWidget = ({
     dispatch(setPost({ post: updatedPost }));
   };
 
+  const deletePost = async () => {
+    try {
+      const response = await fetch(`http://localhost:3001/posts/${postId}`, {
+        method: "DELETE",
+        headers: {
+          Authorization: `Bearer ${token}`,
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (response.status === 204) {
+        // Post excluído com sucesso
+        window.location.reload();
+      } else {
+        const data = await response.json();
+        console.log("Erro ao excluir o post:", data.message);
+      }
+    } catch (err) {
+      console.error("Erro ao excluir o post:", err.message);
+    }
+  };
+
   return (
     <WidgetWrapper m="2rem 0">
       <Friend
         friendId={postUserId}
         name={name}
         subtitle={location}
-        userPicturePath={picturePath}
+        userPicturePath={userPicturePath}
       />
+
       <Typography color={main} sx={{ mt: "1rem" }}>
         {description}
       </Typography>
@@ -86,9 +110,16 @@ const PostWidget = ({
             <Typography>{comments.length}</Typography>
           </FlexBetween>
         </FlexBetween>
-        <IconButton>
-          <ShareOutlined />
-        </IconButton>
+        <FlexBetween gap="0.5rem">
+          <IconButton>
+            <ShareOutlined />
+          </IconButton>
+          {loggedInUserId === postUserId && (
+            <IconButton onClick={deletePost}>
+              <DeleteOutlined sx={{ color: main }} />
+            </IconButton>
+          )}
+        </FlexBetween>
       </FlexBetween>
       {isComments && (
         <Box mt="0.5rem">

@@ -1,3 +1,4 @@
+import React from "react";
 import { PersonAddOutlined, PersonRemoveOutlined } from "@mui/icons-material";
 import { Box, IconButton, Typography, useTheme } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
@@ -12,7 +13,6 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
   const { _id } = useSelector((state) => state.user);
   const token = useSelector((state) => state.token);
   const friends = useSelector((state) => state.user.friends);
-  console.log(`friends ${friends.length} ${_id}`);
 
   const { palette } = useTheme();
   const primaryLight = palette.primary.light;
@@ -23,10 +23,8 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
   const isFriend = friends.length
     ? friends.find((friend) => friend._id === friendId)
     : false;
-  console.log(typeof isFriend);
 
   const patchFriend = async () => {
-    console.log("rota");
     const response = await fetch(
       `http://localhost:3001/users/${_id}/${friendId}`,
       {
@@ -37,9 +35,27 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
         },
       }
     );
-    console.log("fim");
     const data = await response.json();
     dispatch(setFriends({ friends: data }));
+  };
+
+  // Renderizar o botão apenas se friendId for diferente de _id
+  const renderFriendButton = () => {
+    if (friendId !== _id) {
+      return (
+        <IconButton
+          onClick={() => patchFriend()}
+          sx={{ backgroundColor: primaryLight, p: "0.6rem" }}
+        >
+          {isFriend ? (
+            <PersonRemoveOutlined sx={{ color: primaryDark }} />
+          ) : (
+            <PersonAddOutlined sx={{ color: primaryDark }} />
+          )}
+        </IconButton>
+      );
+    }
+    return null;
   };
 
   return (
@@ -70,16 +86,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
           </Typography>
         </Box>
       </FlexBetween>
-      <IconButton
-        onClick={() => patchFriend()}
-        sx={{ backgroundColor: primaryLight, p: "0.6rem" }}
-      >
-        {isFriend ? (
-          <PersonRemoveOutlined sx={{ color: primaryDark }} />
-        ) : (
-          <PersonAddOutlined sx={{ color: primaryDark }} />
-        )}
-      </IconButton>
+      {renderFriendButton()}
     </FlexBetween>
   );
 };
