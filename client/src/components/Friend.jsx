@@ -12,8 +12,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
   const { _id } = useSelector((state) => state.user);
   const token = useSelector((state) => state.token);
   const friends = useSelector((state) => state.user.friends);
-  console.log("friends", friends);
-  console.log("friendId", friendId);
+  console.log(`friends ${friends.length} ${_id}`);
 
   const { palette } = useTheme();
   const primaryLight = palette.primary.light;
@@ -21,9 +20,13 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
   const main = palette.neutral.main;
   const medium = palette.neutral.medium;
 
-  const isFriend = friends.find((friend) => friend._id === friendId);
+  const isFriend = friends.length
+    ? friends.find((friend) => friend._id === friendId)
+    : false;
+  console.log(typeof isFriend);
 
   const patchFriend = async () => {
+    console.log("rota");
     const response = await fetch(
       `http://localhost:3001/users/${_id}/${friendId}`,
       {
@@ -34,6 +37,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
         },
       }
     );
+    console.log("fim");
     const data = await response.json();
     dispatch(setFriends({ friends: data }));
   };

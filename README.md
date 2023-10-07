@@ -6,3 +6,4 @@
         - então precisamos configurar o caminho: 
           -  dotenv.config({path: path.resolve(__dirname, './CONFIG.env')})
           -  CONFIG.env é o nome do arquivo dotenv
+  - pwd no terminal 
