@@ -1,9 +1,59 @@
-# Social Media App
- Social Media Aplication
+# Socialpedia
 
-## Anotações:
-    - Precisamos dar um nome ao .env, 
-        - então precisamos configurar o caminho: 
-          -  dotenv.config({path: path.resolve(__dirname, './CONFIG.env')})
-          -  CONFIG.env é o nome do arquivo dotenv
-  - pwd no terminal 
+Projeto de rede social 
+
+## Tabela de Conteúdos
+
+- [Visão Geral](#visão-geral)
+- [Demonstração](#demonstração)
+- [Capturas de Tela](#capturas-de-tela)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+
+## Visão Geral
+
+Uma descrição mais detalhada do seu projeto, incluindo seus objetivos, recursos principais e qualquer informação relevante.
+
+## Demonstração
+
+[Assista a um vídeo de demonstração](link-do-seu-video) para ver a navegação e o funcionamento do projeto.
+
+## Capturas de Tela
+
+![Imagem 1](link-da-imagem-1)
+*Descrição da imagem 1*
+
+![Imagem 2](link-da-imagem-2)
+*Descrição da imagem 2*
+
+![Imagem 3](link-da-imagem-3)
+*Descrição da imagem 3*
+
+![Imagem 4](link-da-imagem-4)
+*Descrição da imagem 4*
+
+## Instalação
+
+Forneça instruções claras sobre como instalar e configurar o seu projeto. Por exemplo:
+
+1. Clone este repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
+2. Navegue até o diretório do projeto: `cd seu-projeto`
+3. Instale as dependências: `npm install`
+
+## Uso
+
+Explique como usar seu projeto. Forneça exemplos de código, instruções ou scripts necessários para executar o projeto.
+
+## Contribuição
+
+Descreva como outros desenvolvedores podem contribuir para o seu projeto, incluindo informações sobre como relatar problemas e enviar solicitações pull.
+
+## Licença
+
+Este projeto está licenciado sob a [Nome da Licença](link-para-a-licença) - por exemplo, MIT License. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
+
+---
+
+Feito com ❤️ por [Seu Nome](link-do-seu-site) - [GitHub](link-do-seu-github)
