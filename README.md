@@ -1,4 +1,4 @@
-# Socialpedia
+# {c:violet}Socialpedia
 
 Projeto de rede social 
 
@@ -18,7 +18,8 @@ Uma descrição mais detalhada do seu projeto, incluindo seus objetivos, recurso
 
 ## Demonstração
 
-[Assista a um vídeo de demonstração](link-do-seu-video) para ver a navegação e o funcionamento do projeto.
+[Assista a um vídeo de demonstração]([React App.webm](https://github.com/Pedrohsbessa/Social-Media-App/assets/99356444/5d82e9a3-a9c3-4956-9dcd-ef7da4690b0a)
+) para ver a navegação e o funcionamento do projeto.
 
 ## Capturas de Tela
 
