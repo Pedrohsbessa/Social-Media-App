@@ -19,17 +19,8 @@ Uma descrição mais detalhada do seu projeto, incluindo seus objetivos, recurso
 ## Demonstração
 ### Vídeo de apresentação
 
-[![Vídeo de apresentação](https://img.youtube.com/vi/IhR_1v4Oc7k/sddefault.jpg)](https://youtu.be/IhR_1v4Oc7k?si=AWnBtYzWS_ACsND2)
-### Vídeo de apresentação
+https://github.com/Pedrohsbessa/Social-Media-App/assets/99356444/86ef7d68-3297-47cd-8231-6722cddf2b86
 
-<iframe width="640" height="360" src="https://https://youtu.be/IhR_1v4Oc7k?si=aKK7m9vEHoUxBqUt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-
-**Clique no botão Play para assistir ao vídeo.**
-
-</iframe>
-
-
-**Clique na imagem para assistir ao vídeo.**
 
 ## Capturas de Tela
 
