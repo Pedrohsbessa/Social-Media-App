@@ -17,9 +17,11 @@ Projeto de rede social
 Uma descrição mais detalhada do seu projeto, incluindo seus objetivos, recursos principais e qualquer informação relevante.
 
 ## Demonstração
+### Vídeo de apresentação
 
-[Assista a um vídeo de demonstração]([Socialpedia](https://www.youtube.com/watch?v=IhR_1v4Oc7k&ab_channel=PedroHenrique)
-) para ver a navegação e o funcionamento do projeto.
+[![Vídeo de apresentação](https://img.youtube.com/vi/IhR_1v4Oc7k/sddefault.jpg)](https://youtu.be/IhR_1v4Oc7k?si=AWnBtYzWS_ACsND2)
+
+**Clique na imagem para assistir ao vídeo.**
 
 ## Capturas de Tela
 
