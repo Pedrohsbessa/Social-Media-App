@@ -85,4 +85,4 @@ Envie solicitações de pull, precisamos adicionar funcionalidades como comentá
 
 ---
 
-Feito com ❤️ por [Seu Nome](Pedro Henrique Bessa) - [GitHub](https://github.com/Pedrohsbessa)
+Feito com ❤️ por [Pedro Henrique Bessa](https://github.com/Pedrohsbessa) - [GitHub](https://github.com/Pedrohsbessa)
