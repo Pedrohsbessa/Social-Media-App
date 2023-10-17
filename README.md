@@ -54,6 +54,25 @@ Forneça instruções claras sobre como instalar e configurar o seu projeto. Por
 1. Clone este repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
 2. Navegue até o diretório do projeto: `cd seu-projeto`
 3. Instale as dependências: `npm install`
+#### dependências:
+- Material UI: https://mui.com/material-ui/getting-started/installation/
+- Redux Toolkit: https://redux-toolkit.js.org/introduction/getting-started
+- React Router: https://reactrouter.com/en/v6.3.0/getting-started/installation
+- Redux Persist: https://github.com/rt2zz/redux-persist
+- React Dropzone: https://react-dropzone.js.org/
+- Node: https://nodejs.org/en/download
+- Nodemon: https://github.com/remy/nodemon
+- NPX: https://www.npmjs.com/package/npx
+- Dotenv: https://github.com/motdotla/dotenv
+- MongoDB: https://www.mongodb.com/pt-br
+- Mongoose: https://github.com/Automattic/mongoose
+- JsonWebToken: https://github.com/auth0/node-jsonwebtoken
+- Multer: https://github.com/expressjs/multer
+- GridFS-Storage: https://github.com/devconcept/multer-gridfs-storage
+- Google Fonts: https://fonts.google.com/
+- Formik: https://formik.org/docs/overview
+- Yup: https://github.com/jquense/yup
+
 
 ## Uso
 
