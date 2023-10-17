@@ -14,7 +14,7 @@ Projeto de rede social
 
 ## Visão Geral
 
-Uma descrição mais detalhada do seu projeto, incluindo seus objetivos, recursos principais e qualquer informação relevante.
+Esse é um projeto de uma rede social, onde você poderá adicionar postagens com seus textos e suas imagens favoritas, adicionar amigos e curtir os seus posts favoritos
 
 ## Demonstração
 ### Vídeo de apresentação
@@ -51,9 +51,9 @@ https://github.com/Pedrohsbessa/Social-Media-App/assets/99356444/3b908bd8-7947-4
 
 Forneça instruções claras sobre como instalar e configurar o seu projeto. Por exemplo:
 
-1. Clone este repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
-2. Navegue até o diretório do projeto: `cd seu-projeto`
-3. Instale as dependências: `npm install`
+1. Clone este repositório: `git clone [https://github.com/seu-usuario/seu-projeto.git](https://github.com/Pedrohsbessa/Social-Media-App)`
+2. Navegue até o diretório do projeto: `cd client` e `cd server`
+3. Instale as dependências na raiz: `npm install`
 #### dependências:
 - Material UI: https://mui.com/material-ui/getting-started/installation/
 - Redux Toolkit: https://redux-toolkit.js.org/introduction/getting-started
@@ -72,20 +72,17 @@ Forneça instruções claras sobre como instalar e configurar o seu projeto. Por
 - Google Fonts: https://fonts.google.com/
 - Formik: https://formik.org/docs/overview
 - Yup: https://github.com/jquense/yup
-
+  
+4. Execute o server e o client `npm start` para o client e `npm run start`
 
 ## Uso
 
-Explique como usar seu projeto. Forneça exemplos de código, instruções ou scripts necessários para executar o projeto.
+Basta fazer o cadastro e o login e começar a usar
 
 ## Contribuição
 
-Descreva como outros desenvolvedores podem contribuir para o seu projeto, incluindo informações sobre como relatar problemas e enviar solicitações pull.
-
-## Licença
-
-Este projeto está licenciado sob a [Nome da Licença](link-para-a-licença) - por exemplo, MIT License. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
+Envie solicitações de pull, precisamos adicionar funcionalidades como comentários, a possibilidade de postar vídeos, gifs e áudios, a função de compartilhar seus posts em outras mídias sociais... dentre outras, todas as idéias serão bem vindas.
 
 ---
 
-Feito com ❤️ por [Seu Nome](link-do-seu-site) - [GitHub](link-do-seu-github)
+Feito com ❤️ por [Seu Nome](Pedro Henrique Bessa) - [GitHub](https://github.com/Pedrohsbessa)
