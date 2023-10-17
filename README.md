@@ -49,8 +49,6 @@ https://github.com/Pedrohsbessa/Social-Media-App/assets/99356444/3b908bd8-7947-4
 
 ## Instalação
 
-Forneça instruções claras sobre como instalar e configurar o seu projeto. Por exemplo:
-
 1. Clone este repositório: `git clone https://github.com/seu-usuario/seu-projeto`
 2. Navegue até o diretório do projeto: `cd client` e `cd server`
 3. Instale as dependências na raiz: `npm install`
