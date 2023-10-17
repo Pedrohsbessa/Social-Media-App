@@ -19,7 +19,10 @@ Uma descrição mais detalhada do seu projeto, incluindo seus objetivos, recurso
 ## Demonstração
 ### Vídeo de apresentação
 
-https://github.com/Pedrohsbessa/Social-Media-App/assets/99356444/86ef7d68-3297-47cd-8231-6722cddf2b86
+
+
+https://github.com/Pedrohsbessa/Social-Media-App/assets/99356444/3b908bd8-7947-48e9-9095-f097106c4a2a
+
 
 
 ## Capturas de Tela
